@@ -38,10 +38,10 @@ export default function HomePage({ onPageChange }: HomePageProps) {
             Pioneering intelligent, sustainable energy solutions for a radiant, cleaner world.
           </p>
           <button 
-            onClick={() => onPageChange?.('calculator')}
+            onClick={() => onPageChange?.('contract')}
             className="btn-elegant font-bold py-3 px-8 rounded-full text-lg"
           >
-            Calculate Your Savings
+            Get your first design free
           </button>
         </div>
       </section>
